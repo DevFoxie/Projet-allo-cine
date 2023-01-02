@@ -14,7 +14,9 @@ fetch('./data/movies.json')
                 <div class="row">
 
                 <div class="col s12 m7">
+                <div id="bloc">
                 <h1 class="header">${movie.Title}</h1>
+                </div>
                 <div class="card horizontal">
                   <div class="card-image">
                     <img src="${movie.Poster}">
