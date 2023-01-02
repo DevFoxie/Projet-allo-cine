@@ -43,14 +43,9 @@ fetch('./data/movies.json')
                     <div class="col">
                         <img src="${movie.Images}" alt="" class="image_2">
                     </div>
-                    <div class="col">
-                        <img src="" alt="" class="src">
-                    </div>
-                    <div class="col">
-                        <img src="" alt="" class="src">
-                    </div>
                 </div>
             </div>
+            <hr>
         </div>`
         })
 })
