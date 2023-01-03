@@ -2,91 +2,95 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <title>Mini Allo-ciné</title>
+  <meta charset="UTF-8">
+  <title>Mini Allo-ciné</title>
 
-    <!-- Custom styles for this template -->
-    <link href="./css/style.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="./css/style.css" rel="stylesheet">
 
-    <!-- Materialize  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Materialize  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
 
-    <!--FONTS-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Rokkitt:wght@400;700&display=swap"
-        rel="stylesheet">
+  <!--FONTS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Rokkitt:wght@400;700&display=swap"
+    rel="stylesheet">
 
-       <!--FONTAWESOME INTEGRATION-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+  <!--FONTAWESOME INTEGRATION-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
     integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <!--FAVICON-->
-    <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/android-chrome-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
-    <link rel="manifest" href="/site.webmanifest">
+  <!--FAVICON-->
+  <link rel="apple-touch-icon" sizes="180x180" href="./Favicon/android-chrome-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./Favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./Favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
 
 </head>
 
 <body>
 
-    <header>
-        <nav>
-            <div class="nav-wrapper amber accent-3">
-                <a href="#" class="brand-logo center"><img src="./Images/agieu.png" class="circle logo" alt="logo">
-                </a>
-            </div>
-        </nav>
-    </header>
+  <header>
+    <nav>
+      <div class="nav-wrapper amber accent-3">
+        <a href="#" class="brand-logo center"><img src="./Images/agieu.png" class="circle logo" alt="logo">
+        </a>
+      </div>
+    </nav>
+  </header>
+  <div class="container">
+
+    <div class="movies">
+    </div>
+  </div>
+
+  <footer class="page-footer">
     <div class="container">
-        
-            <div class="movies">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Merci d'avoir visité le site ...</h5>
+          <p class="grey-text text-lighten-4">N'hésitez pas à revenir voir les prochains films !</p>
         </div>
+        <div class="col l4 offset-l2 s12">
+        </div>
+      </div>
     </div>
-
-    <footer class="page-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col l6 s12">
-              <h5 class="white-text">Merci d'avoir visité le site ...</h5>
-              <p class="grey-text text-lighten-4">N'hésitez pas à revenir voir les prochains films !</p>
-            </div>
-            <div class="col l4 offset-l2 s12">
-            </div>
-          </div>
-        </div>
-        <div class="footer-copyright">
-          <div class="container">
-          © 2023 Copyright DevFoxie distribution
-          <a class="grey-text text-lighten-4 right" href="https://www.allocine.fr/">Le vrai site d'Allo-ciné</a>
-          </div>
-        </div>
-      </footer>
-          
-    <!--BACK TO TOP BUTTON-->
-
-    <div id="back-to-top">
-        <button onclick="topFunction()" id="myBtn" title="Go to top">
-          <i class="fa-solid fa-arrow-up"></i>
-        </button>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2023 Copyright DevFoxie distribution
+        <a class="grey-text text-lighten-4 right" href="https://www.allocine.fr/">Le vrai site d'Allo-ciné</a>
+      </div>
     </div>
+  </footer>
 
-    <!-- Compiled and minified JavaScript -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!--CUSTOM JS-->
-    <script src="./js/main.js"></script>
-    <script src="./js/back_to_top_button.js"></script>
-    <!--DATA JSON-->
-    <script src="./data/movies.json"></script>
-    <!--FONT AWESOME SCRIPT-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
-        integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-</body>
+  <!--BACK TO TOP BUTTON-->
+
+  <div id="back-to-top">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">
+      <i class="fa-solid fa-arrow-up"></i>
+    </button>
+  </div>
+
+  <!-- JQUERY -->
+  <script type = "text/javascript" src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>    
+  <!--CUSTOM JS-->
+  <script src="./js/main.js"></script>
+  <script src="./js/back_to_top_button.js"></script>
+  <script src="./js/carousel.js"></script>
+  <!--DATA JSON-->
+  <script src="./data/movies.json"></script>
+   <!-- Materialize script -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+  <!--FONT AWESOME SCRIPT-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/js/all.min.js"
+    integrity="sha512-rpLlll167T5LJHwp0waJCh3ZRf7pO6IT1+LZOhAyP6phAirwchClbTZV3iqL3BMrVxIYRbzGTpli4rfxsCK6Vw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  </body>
+  
 
 </html>

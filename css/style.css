@@ -111,3 +111,19 @@ body {
 .card-content:hover {
     border: 1px solid black;
 }
+
+.notation {
+    display: flex;
+    justify-content: start;
+    font-weight: bold;
+    align-items: center;
+}
+
+.metacritic{
+    margin-left: 4%;
+}
+
+.caroussel {
+    display: flex;
+    justify-content: center;
+}
